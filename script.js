@@ -11,7 +11,7 @@ const ENLACE_1 = "https://erick-c3.github.io/Trayecto-de-Programador-/";
 const ENLACE_2 = "https://discord.com/"; 
 const ENLACE_3 = "https://es.stackoverflow.com/";
 
-let opcionRecibida = prompt("Ingrese  1, 2 o 3 para cambiar la estetica de la pagina");
+let opcionRecibida = prompt("Ingrese 1, 2 o 3 para cambiar la estetica de la pagina");
 
 function modificarPagina(colorFondo, colorTexto, enlaceImg, enlacePagina){
     cuerpoPagina.style.backgroundColor = colorFondo;
